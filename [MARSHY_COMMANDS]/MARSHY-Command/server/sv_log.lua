@@ -15,7 +15,7 @@ AddEventHandler('playerConnecting', function()
   local _source = source
   local name = GetPlayerName(_source)
   local mb = Masipallopaa(_source)
-    sendToDiscordLogsEmbed(3158326, '`✅` | PLAYER CONNECTING',' 🧿 - Player: `' .. name .. '`\n 🧿 - Hex-ID: `' ..mb.identifier.. '`\n 🧿 - License: `' ..mb.license.. '`\n 🧿 - License2: `' ..mb.license2.. '` \n 🧿 - Discord Tag: <@' ..mb.discord:gsub('discord:', '').. '>\n 🧿 - Discord ID: `' ..mb.discord.. '`\n 🧿 - XBL ID: `' ..mb.xbl.. '`\n 🧿 - Live ID: `' ..mb.live.. '`\n 🧿 - FiveM ID: `' ..mb.fivem.. '`\n 🧿 - IP: ||' ..GetPlayerEndpoint(_source).. '|| \n\n\n **MADE BY MARSHY 2022**')
+    sendToDiscordLogsEmbed(3158326, '`✅` | ',' 🧷 - Player: `' .. name .. '`\n 🧷 - Hex-ID: `' ..mb.identifier.. '`\n 🧷 - License: `' ..mb.license.. '`\n 🧷 - License2: `' ..mb.license2.. '` \n 🧷 - Discord Tag: <@' ..mb.discord:gsub('discord:', '').. '>\n 🧷 - Discord ID: `' ..mb.discord.. '`\n 🧷 - XBL ID: `' ..mb.xbl.. '`\n 🧷 - Live ID: `' ..mb.live.. '`\n 🧷 - FiveM ID: `' ..mb.fivem.. '`\n 🧷 - IP: ||' ..GetPlayerEndpoint(_source).. '|| \n\n\n **MADE BY MARSHY 2022 \n AUG UPDATE**')
 end)
 
 --Player Leaving
@@ -24,7 +24,7 @@ AddEventHandler('playerDropped', function(reason)
   local name = GetPlayerName(_source)
   local playtime = playertimes[_source] or 0
   local mb = Masipallopaa(_source)
-    sendToDiscordLogsEmbed(3158326, '`❌` | PLAYER DROPPED',' 🧿 - Player: `' .. name .. '`\n 🧿 - Hex-ID: `' ..mb.identifier.. '`\n 🧿 - License: `' ..mb.license.. '`\n 🧿 - License2: `' ..mb.license2.. '` \n 🧿 - Discord Tag: <@' ..mb.discord:gsub('discord:', '').. '>\n 🧿 - Discord ID: `' ..mb.discord.. '`\n 🧿 - XBL ID: `' ..mb.xbl.. '`\n 🧿 - Live ID: `' ..mb.live.. '`\n 🧿 - FiveM ID: `' ..mb.fivem.. '`\n 🧿 - IP: ||' ..GetPlayerEndpoint(_source).. '|| \n\n\n **MADE BY MARSHY 2022**')
+    sendToDiscordLogsEmbed(3158326, '`❌` | ',' 🧷 - Player: `' .. name .. '`\n 🧷 - Hex-ID: `' ..mb.identifier.. '`\n 🧷 - License: `' ..mb.license.. '`\n 🧷 - License2: `' ..mb.license2.. '` \n 🧷 - Discord Tag: <@' ..mb.discord:gsub('discord:', '').. '>\n 🧷 - Discord ID: `' ..mb.discord.. '`\n 🧷 - XBL ID: `' ..mb.xbl.. '`\n 🧷 - Live ID: `' ..mb.live.. '`\n 🧷 - FiveM ID: `' ..mb.fivem.. '`\n 🧷 - IP: ||' ..GetPlayerEndpoint(_source).. '|| \n\n\n **MADE BY MARSHY 2022 \n AUG UPDATE **')
   end)
 
 
@@ -46,13 +46,13 @@ end
 
 function Masipallopaa(_source)
   local idtablemb = {
-    license = "🧿 - No License found - 🧿", 
-    license2 = "🧿 - No license2 found - 🧿",
-    identifier = "🧿 - No Hex-ID found - 🧿",
-    discord = "🧿 - No Discord found - 🧿",
-    xbl = "🧿 - No xbl ID found - 🧿",
-    live = "🧿 - No Live ID found - 🧿",
-    fivem = "🧿 - No FiveM ID found - 🧿"
+    license = "🧷 - No License found - 🧷", 
+    license2 = "🧷 - No license2 found - 🧷",
+    identifier = "🧷 - No Hex-ID found - 🧷",
+    discord = "🧷 - No Discord found - 🧷",
+    xbl = "🧷 - No xbl ID found - 🧷",
+    live = "🧷 - No Live ID found - 🧷",
+    fivem = "🧷 - No FiveM ID found - 🧷"
   }
 
     for k,v in ipairs(GetPlayerIdentifiers(_source))do
