@@ -8,7 +8,7 @@ game "gta5"
 
 name "Delete Vehicles"
 description "Deletes vehicles!"
-author "WolfKnight"
+author "Marshy"
 version "1.1.0"
 
 -- Add a client script 
