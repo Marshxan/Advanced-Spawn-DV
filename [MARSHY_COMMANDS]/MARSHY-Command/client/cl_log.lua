@@ -5,5 +5,5 @@ Citizen.CreateThread(function()
         playtime = playtime + 1
         TriggerServerEvent('log:server:playtime', playtime)
         Citizen.Wait(60000)
-    end
+    end 
 end)
