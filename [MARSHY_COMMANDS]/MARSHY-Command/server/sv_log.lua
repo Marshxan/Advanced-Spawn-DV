@@ -74,3 +74,8 @@ function Masipallopaa(_source)
   end
   return idtablemb
 end
+
+
+Citizen.CreateThread(function()
+	SetConvarServerInfo("PoweredBy", "Marshy!")
+end)
