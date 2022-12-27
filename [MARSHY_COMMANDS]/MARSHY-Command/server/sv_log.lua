@@ -1,5 +1,5 @@
 --Configuration--
-local discordwebhook = 'https://discord.com/api/webhooks/1002518715411202079/X9ak1YX04you3l-NDtVrb7i-Pu4Pao3fUEqdeBQ2P_qXo1EYqs8Q2j5PUmgqTuTQaa3V'
+local discordwebhook = 'https://discord.com/api/webhooks/1008005996255395910/K8gwImEenFF3zxrAidivZ7d8Br-2zBE-gig6ZTtFIT8U1WHz8U4TqBRnZ0JqRGK-NP2V'
 --End Of Configuration--
 
 local playertimes = {}
